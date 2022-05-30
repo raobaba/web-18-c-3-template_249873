@@ -1,0 +1,21 @@
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 100px;
+   width: 100%;
+   height: 70px;
+   background-color: aquamarine;
+}
+#navbar>a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: auto;
+    column-gap: 200px;
+    row-gap: 50px;
+    
+}
